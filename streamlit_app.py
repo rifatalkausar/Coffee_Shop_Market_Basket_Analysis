@@ -12,6 +12,7 @@ st.set_page_config(
 # Load Dataset
 df = pd.read_excel('Coffe Shop Sales.xlsx')
 st.title(':coffee: Coffee Shops Market Basket Analysis :croissant:')
+st.write('Market basket analysis is a way to study what items customers often buy together to help businesses make informed decisions about product placement and promotions.')
 
 def user_input_features():
     item = st.selectbox('**Choose Item**', df['item'].unique())
