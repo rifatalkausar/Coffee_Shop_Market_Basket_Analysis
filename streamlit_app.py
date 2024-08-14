@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import association_rules,apriori
+pip install openpyxl
 
 st.set_page_config(
     page_title="COFFEE SHOP MBA",
