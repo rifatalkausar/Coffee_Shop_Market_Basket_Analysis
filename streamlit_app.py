@@ -11,10 +11,7 @@ st.set_page_config(
 )
 
 # Load Dataset
-from openpyxl import load_workbook
-wb = load_workbook('Coffe Shop Sales.xlsx')
-df = wb.active
-#df = pd.read_excel('Coffe Shop Sales.xlsx')
+df = pd.read_excel('Coffe Shop Sales.xlsx')
 st.title(':coffee: Coffee Shops Market Basket Analysis :croissant:')
 st.write('Market basket analysis is a way to study what items customers often buy together to help businesses make informed decisions about product placement and promotions.')
 
