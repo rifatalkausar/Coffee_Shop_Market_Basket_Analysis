@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import association_rules,apriori
+pip install openpyxl
 
 
 st.set_page_config(
@@ -56,4 +57,5 @@ def return_item_df(item_antecedents):
 
 st.markdown("Recommendation Result : ")
 st.success(return_item_df(item))
+
 
